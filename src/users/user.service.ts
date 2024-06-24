@@ -3,7 +3,7 @@ import { Injectable, Inject } from '@nestjs/common';
 import { User } from './interfaces/user.interface';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
-import * as bcrypt from 'npm i bcrypt';
+import * as bcrypt from 'bcrypt';
 
 export const JWT_PASS = '123456';
 
