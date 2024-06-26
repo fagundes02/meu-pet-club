@@ -4,5 +4,4 @@ export class UpdatePetDto {
     name: string;
     birthDate: Date;
     clientId: string;
-  
     }
